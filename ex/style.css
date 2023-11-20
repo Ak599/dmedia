@@ -1,0 +1,276 @@
+body {
+  background: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  border: 1px solid #c4c4c4;
+  padding: 30px 25px 10px 25px;
+  background: white;
+  margin: 30px auto;
+  width: 360px;
+}
+h1.box-logo a {
+  text-decoration:none;
+}
+h1.box-title {
+  color: #AEAEAE;
+  background: #f8f8f8;
+  font-weight: 300;
+  padding: 15px 25px;
+  line-height: 30px;
+  font-size: 25px;
+  text-align:center;
+  margin: -27px -26px 26px;
+}
+.box-button {
+  border-radius: 5px;
+  background: teal;
+  text-align: center;
+  cursor: pointer;
+  font-size: 19px;
+  width: 100%;
+  height: 51px;
+  padding: 0;
+  color: #fff;
+  border: 0;
+  outline:0;
+}
+.box-register
+{
+  text-align:center;
+  margin-bottom:0px;
+}
+.box-register a
+{
+  text-decoration:none;
+  font-size:12px;
+  color:#666;
+}
+.box-input {
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+  padding-left:10px;
+  border-radius: 5px;
+  width: 347px;
+  height: 50px;
+}
+.box-input:focus {
+    outline: none;
+    border-color:#5c7186;
+}
+.sucess{
+	text-align: center;
+	color: white;
+}
+.sucess a {
+	text-decoration: none;
+	color: #58aef7;
+}
+p.errorMessage {
+    background-color: #e66262;
+    border: #AA4502 1px solid;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+header {
+background-color: #008B8B;
+position: fixed;
+left: 0;
+right: 0;
+z-index: 1002;
+min-height: 45px;
+padding: 0px 5px 0px 15px;
+line-height: 1.42857143;
+}
+
+.notis b{
+display: inline-block;
+color: #fff;
+font-size: 18px;
+font-weight: bold;
+}
+.notis button{
+display: inline-block;
+float: right;
+}
+
+body {
+ background-color: darkcyan;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 18px;
+}
+
+header{
+ width:1283px;
+ height:35px;
+ background-color:darkcyan;
+ padding:5px;
+ color: #ffff;
+ margin: 0;
+ padding: 0;
+}
+
+header button{
+ float:right;
+ padding:5px;
+}
+
+.contenu{
+ float:right;
+ width:1083px;
+ height:800px;
+ background-color: #f0f8ff;
+ display: inline-block;
+ margin: 0;
+ padding: 0;
+}
+.menu{
+ float:left;
+ width:200px;
+ height:800px;
+ background-color: teal;
+ text-color: #ffff;
+ margin: 0;
+ padding: 0;
+ color: #008499;
+}
+.menu ul {
+ /*list-style-type: none;*/
+ margin: 0;
+ padding: 0;
+}
+.menu ul li {
+display : block;
+}
+li a {
+background: #f0ffff;
+margin-bottom: 2px;
+width: 167px;
+display: block;
+padding: 15px;
+text-decoration: none;
+color: #008499;
+}
+
+footer{
+ padding:5px;
+ width:1283px;
+ height:90px;
+ background-color:darkcyan;
+ text-align: center;
+ clear:both;
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ color: #ffff;
+ padding: 10px 15px;
+}
+.contenu1{
+/*float: right;*/
+width: 40%;
+margin: 1.5em 0 1.5em 0;
+/* background: #3298ff; */
+}
+.contenu1 .cadre{
+border: 1px solid #c0c0c0;
+border-radius: 10px;
+margin: 15px 0;
+}
+.contenu1 .cadre:first-child{ margin: 0; }
+.contenu1 .cadre h2{
+color: #333333;
+font-size: 15px;
+text-align: center;
+padding: 5px 10px;
+background: #f2f3f3;
+border-bottom: 1px solid #c0c0c0;
+border-radius: 10px 10px 0 0;
+}
+.contenu1 .cadre p{
+padding: 10px;
+}
+.contenu1 .cadre form{
+padding: 10px;
+}
+.contenu1 .cadre ul li{
+margin: 10px 0 0 30px;
+padding: 5px;
+}
+input[type="submit"]{
+color: #fff;
+background-color: #8daab7;
+margin: 1em 0 0 0;
+border-color: #222;
+display: inline-block;
+padding: .5em 1em;
+font-weight: 400;
+line-height: 1.2;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+cursor: pointer;
+border: 1px solid transparent;
+border-radius: .2em;
+text-decoration: none;
+}
+input[type="submit"]:hover
+{
+background: #000;
+}
+input { 
+  width: 100%;
+ }
+textarea{ resize: none; width: 100%; }
+
+/*.cont2 {
+
+}*/
+.cont2 ul {
+  padding: 0;
+  width: 100%;
+}
+
+.cont2 ul li{
+  display: block;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: black;
+}
+
+li:last-child a{
+  margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+  background: #f0ffff;
+}
+
+a:hover {
+  background: #ffff;
+}
+
+a:active {
+  background: darkcyan;
+  color: white;
+}
+
+fieldset{
+/*float:right;*/
+margin: 45px auto;
+text-align: center;
+width: 25%;
+
+}
+
